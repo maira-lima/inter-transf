@@ -7,15 +7,18 @@
 ### Testes
 Eu testei pras mesmas bases de dados do programa em c e houveram duas q bugam (bioavailability e ppb)
 
-`File "/home/ufabc/anaconda3/lib/python3.6/site-packages/scipy/interpolate/interpolate.py", line 528, in __init__
+```
+File "/home/ufabc/anaconda3/lib/python3.6/site-packages/scipy/interpolate/interpolate.py", line 528, in __init__
     "least %d entries" % minval)
-ValueError: x and y arrays must have at least 2 entries`
+ValueError: x and y arrays must have at least 2 entries
+```
 
 O restante deu rmse bom, todas quiseram o modelo lassoLarsCV.
 
 Seus resultados eram:
 
-`| dataset         | MAE_MLP        | RMSE_MLP       | MAE_XG         | RMSE_XG       |
+```
+| dataset         | MAE_MLP        | RMSE_MLP       | MAE_XG         | RMSE_XG       |
 |-----------------|----------------|----------------|----------------|---------------|
 | airfoil         | 6.18002242479  | 7.67184518627  | 1.11938559178  |1.8309682719   |
 | bioavailability | 20.5488266959  | 25.3781544225  | 24.4211684128  |31.7162529705  |
@@ -28,11 +31,13 @@ Seus resultados eram:
 | towerData       | 18.8099924172  | 25.4063703414  | 11.8206282622  |17.0157431156  |
 | wineRed         | 0.479160333719 | 0.626380925203 | 0.378293441273 |0.591409131066 |
 | wineWhite       | 0.59194468634  | 0.76440593106  | 0.452436536478 |0.678575144104 |
-| yacht           | 7.31679187865  | 9.67918507725  | 0.392170667968 |0.849322392096 |`
+| yacht           | 7.31679187865  | 9.67918507725  | 0.392170667968 |0.849322392096 |
+```
 
 ### Resultados
 
-`n inter 5
+```
+n inter 5
 
 lassoCV 6.40009411517889
 lassoLarsCV 5.2220226976922905
@@ -82,4 +87,5 @@ rmse wineWhite 0.8663455024818917
 lassoCV 10.568085045501523
 lassoLarsCV 10.16122016227372
 min lassoLarsCV
-rmse yacht 9.731068516319386`
+rmse yacht 9.731068516319386
+```
