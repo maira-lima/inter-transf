@@ -4,6 +4,8 @@
 
 21008214 Maira Zabuscha de Lima
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/maira-lima/inter-transf/master)
+
 ### Testes
 Eu testei pras mesmas bases de dados do programa em c e houveram duas q bugam (bioavailability e ppb)
 
