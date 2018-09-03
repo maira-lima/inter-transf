@@ -1,7 +1,7 @@
-# Rede Neural de Múltiplas Camadas para Regressão Simbólica
-
-## Projeto de Graduação em Computação UFABC
-
-21008214 Maira Zabuscha de Lima
+# Projeto de Graduação em Computação UFABC
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/maira-lima/inter-transf/master)
+
+## Gerando Expressões Interação-Transformação com Perceptron de Múltiplas Camadas
+
+[Apresentação](./itelm.ipynb)
